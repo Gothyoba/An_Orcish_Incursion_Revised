@@ -3,11 +3,11 @@
 #WIP SCENARIO
 
 [scenario]
-    id=03_Arenaid
+    id=02_Arenaid
     name= _ "Arenaid"
     map_data="{~add-ons/An_Orcish_Incursion/maps/03_Arenaid.map}"
     {TURNS 24 22 20}
-    next_scenario=04_Valley_of_Trolls
+    next_scenario=03_Valley_of_Monsters
 
     {DEFAULT_SCHEDULE}
 
