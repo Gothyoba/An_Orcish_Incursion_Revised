@@ -216,16 +216,6 @@
             speaker=unit
             message= _ "You won... elf... But it changes... nothing... (<i>cough</i>)"
         [/message]
-
-        [message]
-            speaker=unit
-            message= _ "We found the way... Now... we will come in numbers... (<i>cough</i>) you can’t imagine..."
-        [/message]
-
-        [message]
-            speaker=unit
-            message= _ "(<i>Cough</i>) I’ll be waiting... among the dead..."
-        [/message]
     [/event]
 
     [event]
@@ -257,7 +247,6 @@
 
         [message]
             speaker=Erlornas
-            # TODO: make the AI above reflect this "disregard for self-preservation"; set aggression high and caution low:
             message= _ "Good."
         [/message]
 
@@ -329,13 +318,13 @@
 
         [message]
             speaker=Erlornas
-            message= _ "Damn it. Sound the retreat, we’ll try again when reinforcements arrive."
+            message= _ "Damn it. Sound the retreat. We have failed!"
         [/message]
 
         [message]
             speaker=narrator
             image=wesnoth-icon.png
-            message= _ "The expected relief caught up with them a few days later. The following morning they took the field against a far larger host of orcs. The battle ended in a draw; the war raged on for years..."
+            message= _ "And so the war araged on more many years, leaving utter destruction behind..."
         [/message]
     [/event]
 
